@@ -1010,7 +1010,7 @@ let LoginService = class LoginService {
     constructor(http, router) {
         this.http = http;
         this.router = router;
-        this.url = 'http://localhost:3000/';
+        this.url = 'http://162.214.89.17:3000/';
         this.isAuthenticated = false;
         this.authStatusListener = new rxjs__WEBPACK_IMPORTED_MODULE_3__["Subject"]();
         this.user = {
